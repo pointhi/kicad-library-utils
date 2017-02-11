@@ -31,7 +31,7 @@ echo "$MODIFIED_LIBARIES"
 echo
 echo " * run '$CHECK_KICAD_MOD' for those files"
 
-$CHECK_KICAD_MOD $MODIFIED_LIBARIES
+$CHECK_KICAD_MOD -v $MODIFIED_LIBARIES
 
 if [ $? -eq 0 ]
 then
